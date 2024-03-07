@@ -1,0 +1,124 @@
+body {
+    background-color: #cccccc;
+}
+
+#skill-list-conatiner {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    min-height: 100%;
+    justify-content: flex-start;
+    color: #fff;
+    margin-right: 0;
+}
+
+#name-title-image-div{
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+#name{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#name-desination{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+#image-div{
+    margin-right: 5px;
+}
+
+.profile-pic{
+    width: 130px; 
+    height: 130px; 
+}
+
+.about-me, .content{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    background-color: #303338;
+}
+
+.img-thumbnail{
+    border-color: navy !important;
+}
+
+.div_header{
+    background-color: #303338;
+    padding-left: 5px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.row{
+    border-radius: 5px;
+}
+
+hr {
+    margin: 1px;
+    padding: 1px;
+    background-color: ghostwhite;
+}
+
+#work-experiance-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-left: 5px;
+    margin-left: 0;
+    padding-right: 5px;
+}
+
+.work-experience{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#company-name{
+    margin-bottom: 5px;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+#intro{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.exp-year{
+    font-weight: bold;
+    font-size: 14px;
+}
+.caption{
+    font-weight: bold;
+    margin-top: 0;
+}
+.points{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.references{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.references-info{
+    display: flex;
+    flex-direction: column;
+}
+.reference-name{
+    font-weight: bold;
+}
+p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
