@@ -11,7 +11,11 @@ body {
     color: #fff;
     margin-right: 0;
 }
-
+#title{
+    font-weight: bold;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
 #name-title-image-div{
     margin-top: 4px;
     display: flex;
